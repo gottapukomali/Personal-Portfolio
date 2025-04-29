@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gottapu Komali - Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Portfolio.</div>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero" data-aos="fade-up">
+      <div class="content">
+        <h2>Hello, It's Me</h2>
+        <h1>Gottapu Komali</h1>
+        <h3>And I'm a <span class="typed-text"></span></h3>
+        <p>
+          Passionate about creating seamless and interactive web experiences.
+        </p>
+        <div class="social-icons">
+          <a
+            href="https://github.com/gottapukomali"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-twitter"></i
+          ></a>
+		<a
+			href="https://stackoverflow.com/users/30393016/komali-gottapu?tab=profile"
+			target="_blank"
+		rel="noopener noreferrer"
+		>
+			<i class="fab fa-stack-overflow"></i>
+		</a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <br />
+        <a href="Gottapu_Komali.pdf" download class="btn">Download CV</a>
+      </div>
+      <div class="image" data-aos="fade-left">
+        <img src="img.jpeg" alt="Gottapu Komali - Frontend Developer" />
+      </div>
+    </section>
+
+    <section id="about" class="about" data-aos="fade-up">
+      <div class="about-image" data-aos="fade-right">
+        <img
+          src="https://images.pexels.com/photos/3861959/pexels-photo-3861959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="About Me"
+        />
+      </div>
+      <div class="about-content" data-aos="fade-left">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate frontend developer with experience in creating responsive and interactive web applications. My expertise lies in HTML, CSS, JavaScript, and modern frontend frameworks. I am currently pursuing my 2nd year of B.Tech at Eluru College of Engineering and Technology, further strengthening my technical knowledge and practical skills.
+        </p>
+        <p>
+          I thrive on learning new technologies and improving user experience
+          through thoughtful design and functionality.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <span class="number">3</span>
+            <span class="label">Projects Experience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills" data-aos="fade-up">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card" data-aos="flip-left">
+          <div class="html_skill-icon"><i class="fab fa-html5"></i></div>
+          <h3>HTML5</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 95%"></div>
+          </div>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+          <div class="css_skill-icon"><i class="fab fa-css3-alt"></i></div>
+          <h3>CSS3</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+          <div class="js_skill-icon"><i class="fab fa-js"></i></div>
+          <h3>JavaScript</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects" data-aos="fade-up">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <div class="project" data-aos="fade-up">
+          <div class="project-img">
+            <img
+              src="https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="ATM Project"
+            />
+          </div>
+          <h3>ATM Project</h3>
+          <p>Frontend ATM interface with user-friendly design</p>
+          <a href="https://atm-komali-project.netlify.app/" class="btn">View Project</a>
+        </div>
+        <div class="project" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-img">
+            <img
+              src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Restaurant Menu"
+            />
+          </div>
+          <h3>Restaurant Menu</h3>
+          <p>Interactive restaurant menu with modern design</p>
+          <a href="https://svsrestaurant.netlify.app/" class="btn">View Project</a>
+        </div>
+        <div class="project" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-img">
+            <img
+              src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Portfolio"
+            />
+          </div>
+          <h3>Portfolio Website</h3>
+          <p>Personal portfolio with modern features</p>
+          <a href="https://komaligottapuprotfolio.netlify.app/" class="btn">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" data-aos="fade-up">
+      <div class="contact-content">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or any inquiries!</p>
+        <form id="contact-form" data-aos="fade-up">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Gottapu Komali. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
