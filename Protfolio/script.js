@@ -1,3 +1,25 @@
+<script>
+  const toggle = document.getElementById('modeToggle');
+
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+
+    // Change icon based on mode
+    toggle.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+
+    // Optional: Save preference in localStorage
+    localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+  });
+
+  // Load saved theme on reload
+  window.onload = () => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      document.body.classList.add('dark-mode');
+      toggle.textContent = '☀️';
+    }
+  };
+</script>
 // Initialize AOS
 AOS.init({
     duration: 1000,
